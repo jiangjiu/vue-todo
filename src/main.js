@@ -19,7 +19,9 @@ router.map({
     component: Home
   },
   '/time-entries': {
-    component: TimeEntries,
+    component: function (resolve) {
+      resolve(TimeEntries)
+    },
     subRoutes: {
       '/log-time': {
         component: LogTime

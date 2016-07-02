@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+##### 简单的看板SPA 应用，使用了 vue vue-router vue-resource 等
+
 ## Build Setup
 
 ``` bash
@@ -23,5 +25,6 @@ npm run e2e
 # run all tests
 npm test
 ```
+##### 感谢教程的大力指导~
+[vue-tutorial 真的是个碉堡了的教程！](https://github.com/MeCKodo/vue-tutorial)
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
